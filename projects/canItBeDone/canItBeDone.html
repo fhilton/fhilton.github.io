@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<h2>Can It Be Done - The quick project schedule tool.</h2>
+<p>Assumes Monday through Friday as work days.</p>
+<label for="StartDate">Start Date</label>
+<input type="date" id="StartDate" name="Name" onchange="return calcEndDate();" required/><br>
+
+<label for="HoursProject">Project Hours</label>
+<input type="number" id="HoursProject" name="HoursProject" onchange="return calcEndDate();" required/><br>
+
+<label for="NumResources">Number of Resources</label>
+<input type="number" id="NumResources" name="NumResources" onchange="return calcEndDate();" required/><br>
+
+<label for="HrsPerResource">Hours Per Day Per Resource</label>
+<input type="number" id="HrsPerResource" name="HrsPerResource" onchange="return calcEndDate();" required/><br>
+
+<label for="CompleteDate">Project Complete Date</label>
+<input  id="CompleteDate" name="CompleteDate" disabled/><br>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="canItBeDone.js"></script>
