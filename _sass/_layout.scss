@@ -227,7 +227,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        // font-size: 26px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
