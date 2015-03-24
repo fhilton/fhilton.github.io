@@ -22,9 +22,9 @@ DbUp​ -
 Flyway​ -
 [http://flywaydb.org/](http://flywaydb.org/)<br>
 Nmigrations​ -
-[https://github.com/sklose/NMigrations​]()<br>
+[https://github.com/sklose/NMigrations](https://github.com/sklose/NMigrations)<br>
 roundhouse​ -
-[https://github.com/chucknorris/roundhouse​]()<br>
+[https://github.com/chucknorris/roundhouse](https://github.com/chucknorris/roundhouse)<br>
 <br>
 <h3>Database State Tools</h3>
 Entity Framework Migrations​<br>
@@ -34,17 +34,17 @@ SQL Server Database Project<br>
 <h3>Enrico Campidoglio​</h3>
 
 NDC talk on Continuous Delivery for SQL​<br>
-&nbsp;&nbsp;&nbsp; - [http://www.ndcvideos.com/#/app/video/2531​]() (Features DbUP) <br>
+&nbsp;&nbsp;&nbsp; - [http://www.ndcvideos.com/#/app/video/2531](http://www.ndcvideos.com/#/app/video/2531) (Features DbUP) <br>
 .NETROCKS discussion on Continuous Delivery for SQL​<br>
-&nbsp;&nbsp;&nbsp; - [http://www.dotnetrocks.com/default.aspx?showNum=1079​]()<br>
+&nbsp;&nbsp;&nbsp; - [http://www.dotnetrocks.com/default.aspx?showNum=1079](http://www.dotnetrocks.com/default.aspx?showNum=1079)<br>
 <br>
 <h3>Deborah Kurata​</h3>
 Pluralsight video – Visual Studio Data Tools for Developers​<br>
-&nbsp;&nbsp;&nbsp; - [http://www.pluralsight.com/courses/visual-studio-data-tools-developers​]()
+&nbsp;&nbsp;&nbsp; - [http://www.pluralsight.com/courses/visual-studio-data-tools-developers](http://www.pluralsight.com/courses/visual-studio-data-tools-developers)
 <br>
 <br>
 <h3>Example SQL Database Project for Talk</h3>
-&nbsp;&nbsp;&nbsp; - [https://github.com/fhilton/SqlDbProject]()
+&nbsp;&nbsp;&nbsp; - [https://github.com/fhilton/SqlDbProject](https://github.com/fhilton/SqlDbProject)
 <br><br>
 If you are coming to this page after attending to the talk, thanks for joining me and I hope you enjoyed it.
 <br>If you have any questions please contact me on twitter.
