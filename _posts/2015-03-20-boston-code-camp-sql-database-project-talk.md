@@ -13,14 +13,14 @@ I am giving a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) 
 <br>Below is a list of the links for the talk, enjoy.
 
 <h3>Slides</h3>
-[http://www.slideshare.net/floydhilton/sql-in-version-control]()
+[http://www.slideshare.net/floydhilton/sql-in-version-control](http://www.slideshare.net/floydhilton/sql-in-version-control)
 <br>
 <br>
 <h3>Database Transformation Tools</h3>
 DbUp​ -
-[https://www.nuget.org/packages/dbup/​]()<br>
+[https://www.nuget.org/packages/dbup/](https://www.nuget.org/packages/dbup/)<br>
 Flyway​ -
-[http://flywaydb.org/​]()<br>
+[http://flywaydb.org/](http://flywaydb.org/)<br>
 Nmigrations​ -
 [https://github.com/sklose/NMigrations​]()<br>
 roundhouse​ -
