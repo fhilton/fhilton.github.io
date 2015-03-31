@@ -9,6 +9,7 @@ tags: []
 I am giving a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) about getting SQL into version control at the [Boston Code Camp](http://www.bostoncodecamp.com/) on 3/21/2015.
 <br>
 
+The talk will cover multiple ways of getting SQL into Version Control, but will focus on using SQL Database Projects with git or TFS.
 
 <br>Below is a list of the links for the talk, enjoy.
 

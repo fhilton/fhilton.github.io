@@ -1,6 +1,6 @@
 # Site settings
-title: FloydHilton.com
-email: 
+title: Floyd Hilton
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Exploring Software as a Passion, a Business and a Career.
 baseurl: "" # the subpath of your site, e.g. /blog/
