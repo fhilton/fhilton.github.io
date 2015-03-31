@@ -12,7 +12,7 @@ I am the Co-Founder (with [James](http://www.jamessturtevant.com/)) of the [Augu
 
 I enjoy improving the quality of software by leveraging unit testing, version control and repeatable processes. I also enjoy's helping others discover the awesome career of being a software developer.
 
-My current tools of choice are C#, ASP.NET MVC, AngularJS, Python, Git, SQL Server and Microsoft Azure.
+My current tools of choice are C#, ASP.NET MVC, ASP.NET Web API, AngularJS, Python, Git, SQL Server and Microsoft Azure.
 
 <hr>
 <strong>Reflecting</strong> on 15 years of software development experience in businesses ranging from large scale semiconductor manufacturing to small scale consulting. <br>
