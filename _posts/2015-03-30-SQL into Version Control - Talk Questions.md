@@ -14,7 +14,7 @@ The talk turned out to be quite successful, with a packed room and lots of quest
 I wanted to follow up with some answers to some of the top questions.
 <br>
 <h3>Top Questions from the Talk</h3>
-1. Can you automatically deploy SQL Database Project changes when teh code is checked in?
+1. Can you automatically deploy SQL Database Project changes when the code is checked in?
 2. What kind of validation is done when changing the target database version?
 3. How do you deal with multiple, dependant databases, including using symbolic links?
 
