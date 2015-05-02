@@ -18,7 +18,6 @@ I wanted to follow up with some answers to some of the top questions.
 2. What kind of validation is done when changing the target database version?
 3. How do you deal with multiple, dependant databases, including using symbolic links?
 
-{{site.baseurl }}{{ post.url }}
 
 <br>
 I'll be turning the above questions into links to posts as I get time to answer the questions.
