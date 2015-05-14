@@ -15,7 +15,7 @@ I wanted to follow up with some answers to some of the top questions.
 <br>
 <h3>Top Questions from the Talk</h3>
 1. [Can you automatically deploy SQL Database Project changes when the code is checked in?]({{site.baseurl}}/software/sql/2015/04/26/Deploying%20an%20SQL%20Project%20DACPAC.html)
-2. What kind of validation is done when changing the target database version?
+2. [What kind of validation is done when changing the target database version?]({{site.baseurl}}/software/sql/2015/05/13/SQL-Database-Project-Target-Validation.html)
 3. How do you deal with multiple, dependant databases, including using symbolic links?
 
 
