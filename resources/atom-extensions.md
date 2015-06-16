@@ -9,3 +9,4 @@ layout: page
 - [tab-history](https://github.com/guillaume86/tab-history) - Allows ctrl-tab functionality similar to other programs.
 - [minimap](https://atom.io/packages/minimap) - Makes the scrollbar into a minimap of the code.
 - [minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected) - Shows selections in the minimap.
+- [markdown-writer](https://atom.io/packages/markdown-writer) - Tools for writing markdown.
