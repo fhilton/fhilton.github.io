@@ -31,6 +31,7 @@ A view in Database2 is dependent on a table in Database1.
 <br>
 
 <e>Open SQL Server Object Explorer</e>
+
 ![SQL Server Object Explorer](/images/2015/07/ObjectExplorer.png)
 
 <e>Connect to your database server</e>
