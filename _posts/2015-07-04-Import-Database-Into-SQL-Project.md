@@ -107,7 +107,7 @@ First we have to create the .DACPAC for Database1
 Once the DACPAC is created, we need to add a reference to the Database2 project.
 <e>Right click on the Database2 project references and click "Add Database Reference"</e>
 ![Add Database Reference](/images/2015/07/AddDatabaseReference.png)
-
+<br>
 ![Add Reference Dialog](/images/2015/07/AddReferenceDialog.png)
 
 > Here you have some choices to make, you can either use a database variable to refer to the referenced database (see above), or you can clear out the "Database variable" field and reference the database by name:
