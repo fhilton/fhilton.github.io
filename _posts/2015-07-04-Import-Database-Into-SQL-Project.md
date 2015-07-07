@@ -29,6 +29,7 @@ For this example I'm going to use two dummy databases, "Database1" and "Database
 <br>
 A view in Database2 is dependent on a table in Database1.
 <br>
+<br>
 
 <e>Open SQL Server Object Explorer</e><br>
 ![SQL Server Object Explorer](/images/2015/07/ObjectExplorer.png)
