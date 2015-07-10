@@ -6,6 +6,7 @@ published: true
 categories: [Software, Javascript, Beginner]
 tags: [Software, JavaScript, Beginner]
 ---
+<!--more-->
 
 I recently met a young man that was just starting to learn about programming. He was interested in learning JavaScript and had been exploring a few online courses.  When I inquired about what editor he was using I found that he was using Notepad.  
 <br>

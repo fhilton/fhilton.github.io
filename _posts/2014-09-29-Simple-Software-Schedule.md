@@ -5,6 +5,7 @@ published: true
 categories: [Software, Project Management]
 tags: []
 ---
+<!--more-->
 
 Every once in a while I need to quickly figure out what a potential completion date will be for a given project.
 
@@ -19,7 +20,7 @@ Usually we have the following information:
 
 Using the variables above, I typically whip open Excel and use the WORKDAY function to give me a potential project finish date.
 
-The trouble is, finding the Excel file (or recreating it) is inefficient, and when others want to do the calculation I have to send them the file. 
+The trouble is, finding the Excel file (or recreating it) is inefficient, and when others want to do the calculation I have to send them the file.
 
 To solve the troubles, I have created a quick and dirty web version called [Can it be done](projects/canItBeDone/canItBeDone.html).
 

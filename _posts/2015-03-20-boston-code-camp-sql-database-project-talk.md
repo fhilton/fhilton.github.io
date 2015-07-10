@@ -5,6 +5,7 @@ published: true
 categories: [SQL Server, Version Control, Talk]
 tags: []
 ---
+<!--more-->
 
 I am giving a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) about getting SQL into version control at the [Boston Code Camp](http://www.bostoncodecamp.com/) on 3/21/2015.
 <br>

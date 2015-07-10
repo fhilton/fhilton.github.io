@@ -6,6 +6,7 @@ published: true
 categories: [Software, SQL]
 tags: [SQL Database Project,Azure,CI]
 ---
+<!--more-->
 
 I recently had the privilege to give a [talk][d8c0da08] at the [Boston Code Camp][41767920] about getting SQL into version control.
 <br>

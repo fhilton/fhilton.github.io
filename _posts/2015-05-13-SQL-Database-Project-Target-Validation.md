@@ -6,6 +6,7 @@ published: true
 categories: [Software, SQL]
 tags: [SQL Database Project,Azure,CI]
 ---
+<!--more-->
 
 This post is a follow up to [this post]({{site.baseurl}}/software/sql/2015/03/30/SQL%20into%20Version%20Control%20-%20Talk%20Questions.html) about a [talk][d8c0da08] I gave at the [Boston Code Camp][41767920].
 <br>
