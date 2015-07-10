@@ -1,6 +1,8 @@
 ---
 layout: default
+excerpt_separator: ""
 ---
+{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 <div class="post">
 
   <header class="post-header">
@@ -9,7 +11,7 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ content }}
+    {{ content | remove: '<p>' | remove: '</p>'}}    
   </article>
   {% include disqus.html %}
 </div>
