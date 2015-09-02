@@ -6,12 +6,13 @@ published: true
 categories: [Software, SQL]
 tags: [SQL Database Project,Azure,CI]
 ---
-<!--more-->
 
-This post is a follow up to [this post]({{site.baseurl}}/software/sql/2015/03/30/SQL%20into%20Version%20Control%20-%20Talk%20Questions.html) about a [talk][d8c0da08] I gave at the [Boston Code Camp][41767920].
+This post is a follow up to [this post]({{site.baseurl}}/software/sql/2015/03/30/SQL%20into%20Version%20Control%20-%20Talk%20Questions.html) about a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) I gave at the [Boston Code Camp](http://www.bostoncodecamp.com/).
 <br>
 <br>
 One of the questions from the talk was "Can you automatically deploy SQL Database Project changes when the code is checked in?".<br>
+<!--more-->
+
 <br>
 I found a blog post by [Jamie Thompson][635cee10] called [How deploy a DACPAC on Check-In using MS Azure][a62b5a4b] which explains how to check an SQL Database Project, build and deploy it. The article is from 2013 and mentions TFS Online, which is now Visual Studio Online.  I assume the article should translate to using VSO and TFS or Git version control, if anyone has tried it please let me know.
 <br>

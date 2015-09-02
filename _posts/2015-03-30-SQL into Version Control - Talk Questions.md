@@ -6,13 +6,13 @@ published: true
 categories: [Software, SQL]
 tags: [SQL Database Project,Azure,CI]
 ---
-<!--more-->
 
-I recently had the privilege to give a [talk][d8c0da08] at the [Boston Code Camp][41767920] about getting SQL into version control.
+I recently had the privilege to give a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) at the [Boston Code Camp](http://www.bostoncodecamp.com/) about getting SQL into version control.
 <br>
 <br>
 The talk turned out to be quite successful, with a packed room and lots of questions.
 I wanted to follow up with some answers to some of the top questions.
+<!--more-->
 <br>
 <h3>Top Questions from the Talk</h3>
 1. [Can you automatically deploy SQL Database Project changes when the code is checked in?]({{site.baseurl}}/software/sql/2015/04/26/Deploying%20an%20SQL%20Project%20DACPAC.html)

@@ -6,15 +6,16 @@ published: true
 categories: [Software, SQL]
 tags: [SQL Database Project,Azure,CI]
 ---
-<!--more-->
 
-This post is a follow up to [this post]({{site.baseurl}}/software/sql/2015/03/30/SQL%20into%20Version%20Control%20-%20Talk%20Questions.html) about a [talk][d8c0da08] I gave at the [Boston Code Camp][41767920].
+This post is a follow up to [this post]({{site.baseurl}}/software/sql/2015/03/30/SQL%20into%20Version%20Control%20-%20Talk%20Questions.html) about a [talk](http://www.bostoncodecamp.com/CC23/Sessions/Details/14225) I gave at the [Boston Code Camp](http://www.bostoncodecamp.com/).
+
 <br>
 <br>
 
 One of the questions at the end of my talk was:
 
 >How do you deal with multiple, dependent databases, including using symbolic links?
+<!--more-->
 
 <br>
 I decided the best way to explain working with dependancies is to do a step by step database import example.

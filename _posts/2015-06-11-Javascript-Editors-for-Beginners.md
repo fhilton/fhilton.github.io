@@ -6,9 +6,10 @@ published: true
 categories: [Software, Javascript, Beginner]
 tags: [Software, JavaScript, Beginner]
 ---
-<!--more-->
 
 I recently met a young man that was just starting to learn about programming. He was interested in learning JavaScript and had been exploring a few online courses.  When I inquired about what editor he was using I found that he was using Notepad.  
+<!--more-->
+
 <br>
 While using Notepad to write JavaScript is doable, I am sure he would have a much better experience if he used an editor that gave him some more bells and whistles such as [intellisense](http://en.wikipedia.org/wiki/Intelligent_code_completion) and syntax highlighting.
 <br>
