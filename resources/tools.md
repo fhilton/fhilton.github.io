@@ -13,3 +13,4 @@ layout: page
 - [SourceTree](http://www.sourcetreeapp.com/) - Great GUI tool for Git.
 - [Cmder](http://gooseberrycreative.com/cmder/) - Portable console emulator for Windows.
 - [List of Editors for JavaScript Beginners (and experts)](../../software/javascript/beginner/2015/06/11/Javascript-Editors-for-Beginners.html)
+- [ScreenToGif](https://screentogif.codeplex.com/) - Make Animated Gifs
