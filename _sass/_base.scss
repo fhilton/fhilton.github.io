@@ -32,7 +32,7 @@ body {
  */
 h1, h2, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
+ul, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 10;
     margin-top: $spacing-unit / 2;
@@ -46,6 +46,7 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+     border:1px solid #021a40;
 }
 
 
@@ -82,6 +83,13 @@ li {
     > ol {
          margin-bottom: 0;
     }
+}
+li li{
+    list-style-type: lower-alpha;
+}
+
+li li li{
+    list-style-type: lower-roman;
 }
 
 
