@@ -3,7 +3,7 @@ layout: page
 ---
 <h2>Tools</h2>
 <p>Tools for creating software.</p>
-- [Visual Studio Community Edition](visualstudio.com/free) - The best editor there is for C# and .NET, for Free!<br>
+- [Visual Studio Community Edition](https://www.visualstudio.com/vs/community/) - The best editor there is for C# and .NET, for Free!<br>
 - [Visual Studio Code](https://code.visualstudio.com/) - New cross platform editor by Microsoft.<br>
 - [Atom](https://atom.io/) - A cross plantform editor by [GitHub](https://github.com/).<br>
 -- [Extensions for Atom](./atom-extensions.html) - The best part about Atom. <br>
@@ -11,6 +11,6 @@ layout: page
 - [WebStorm](https://www.jetbrains.com/webstorm/) - Editor for Javascript and web development (other than .NET).<br>
 - [Git](http://git-scm.com/) - The standard in version control<br>
 - [SourceTree](http://www.sourcetreeapp.com/) - Great GUI tool for Git.
-- [Cmder](http://gooseberrycreative.com/cmder/) - Portable console emulator for Windows.
+- [Cmder](http://cmder.net/) - Portable console emulator for Windows.
 - [List of Editors for JavaScript Beginners (and experts)](../../software/javascript/beginner/2015/06/11/Javascript-Editors-for-Beginners.html)
 - [ScreenToGif](https://screentogif.codeplex.com/) - Make Animated Gifs
