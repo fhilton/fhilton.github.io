@@ -7,13 +7,10 @@ categories: [Tools]
 tags: [Blog, Docker, Windows]
 ---
 
-This blog is hosted on [GitHub Pages](https://pages.github.com/).
+When I first started this blog, I went through the process of setting up  [Jekyll](https://jekyllrb.com/) locally on my Mac so that I could preview posts.
 <br>
 <br>
-When I first started this blog, I went through the process of setting up  [Jekyll](https://jekyllrb.com/) locally on my Mac so that I could preview  posts.
-<br>
-<br>
-Recently I've been doing more work in Windows and wanted to be able to work on my blog without booting back into Mac.
+Recently I've been doing more work in Windows and wanted to be able to work on my blog without booting up my Mac.
 <br>
 <br>
 My friend James pointed out on his blog [jamessturtevant.com](http://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/) that it's really easy to get Jekyll running on Windows using Docker so I thought I'd give it a try.
