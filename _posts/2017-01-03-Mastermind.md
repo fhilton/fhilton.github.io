@@ -8,7 +8,7 @@ tags: [Blog, Productivity, Mastermind, Goals]
 ---
 
 Back in 2013, [James Sturtevant](http://www.jamessturtevant.com/) and I started a [Mastermind Group](https://www.google.com/search?q=mastermind+group) that met every week for approximatly two years and grew to a total of 4 people.<br><br>
-During those two years we both experienced explosive growth in our career and more balanced personal lives. <br><br>
+During those two years we both experienced explosive growth in our careers and more balanced personal lives. <br><br>
 
 I've had a few people ask for more details about our group so I thought a blog post would be a good place to share the information. <br>
 
