@@ -16,6 +16,7 @@ I've had a few people ask for more details about our group so I thought a blog p
 
 # What is a Mastermind Group?
 My definition of a Mastermind Group is a group of people helping eachother accomplish a common goal. <br>
+<br>
 Examples of common goals are to succeed in business or to finish a graduate thesis. <br>
  In our case the common goals were to:
 
@@ -38,16 +39,18 @@ Each of our meetings had the following agenda:
 4. Review completed goals and set goals for the next week.
 
 If at any time one of us need help with something, we would susspend the agenda and spend the hour focusing on what the member needed. <br>
-
+<br>
 The key to a succcessful mastermind group is committement.  Everyone needs to meet EVERY week.  The whole group is based on the trust that members will show up and be dedicated.
 
 
 # Setting Individual Goals
 None of us wanted to work really hard climbing a ladder only to find that the ladder is leaning against the wrong wall. <br>
+<br>
 To make sure we were heading in the right direction, we developed a goal setting process that starts with brainstorming 101 goals and ends with actionable quarterly goals to which we would then keep eachother accountable.
 
 # Want more Information?
 If people would find it usefel, I'd like to put together some more information about the process and tools we use for setting and accomplshing our goals and some other information about the Mastermind Group. <br>
+<br>
 If you would like to know more, please enter your email address here and I'll let you know when more information is available.
-
+<br>
 {% include mailchimp.html %}
