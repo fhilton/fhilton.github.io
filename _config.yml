@@ -2,11 +2,11 @@
 title: Floyd Hilton
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Exploring Software as a Passion, a Business and a Career.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://floydhilton.com" # the base hostname & protocol for your site
 twitter_username: fhilton
 github_username:  fhilton
+linkedin_username: floydhilton
 excerpt_separator: <!--more-->
 
 # Build settings
