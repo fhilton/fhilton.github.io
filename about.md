@@ -4,18 +4,16 @@ title: About
 permalink: /about/
 ---
 
-I help businesses automate manual tasks one process at a time. I believe the best way to deliver software is in small, manageable pieces, getting those pieces in front of the customer as soon as possible.
+Floyd Hilton has 17 years of software development experience in many domains including semiconductor manufacturing, financial aid delivery, energy conservation and healthcare. 
 
-I help software groups improve their processes utilizing management techniques, project tracking, version control, continuous integration, and unit testing.
+Floyd has been described as being the “voice of reason” and having a “calming effect” on the hectic world of software. He has enjoyed wearing many hats such as full stack web developer, project manager, application architect and director of development. 
 
-I am the Co-Founder (with [James](http://www.jamessturtevant.com/)) of the [Augusta Polyglot Group](http://augusta-polyglot.github.io/). We get together once a month to teach and learn. One thing that makes our group unique, is that we focus on coding together instead of giving lectures.
+His current interests are leveraging Agile process and DevOps to help software teams move toward continuous delivery, working with Docker containers, and improving architecture using domain driven design.
 
-I enjoy improving the quality of software by leveraging unit testing, version control and repeatable processes. I also enjoy's helping others discover the awesome career of being a software developer.
+Floyd also enjoys helping others discover the awesome career of being a software developer. He co-founded the Augusta Polyglot Group which meets once a month to teach and learn new languages. He has been teaching kids to program using a mixture of Linux, Scratch and Python and has given conference talks on Software Deployment and getting SQL into Version Control.
 
-My current tools of choice are C#, ASP.NET MVC, ASP.NET Web API, AngularJS, Python, Git, SQL Server and Microsoft Azure.
+If he's not writing code, Floyd can be found mountain biking in the Maine woods with his family.
 
-<hr>
-<strong>Reflecting</strong> on 15 years of software development experience in businesses ranging from large scale semiconductor manufacturing to small scale consulting. <br>
-<strong>Planning</strong> to add value.<br>
-<strong>Exploring</strong> what it means to have a career in software.<br>
-<strong>Striving</strong> to live a balanced life.
+Floyd's current tools of choice are VS Code, C#, ASP.NET MVC, AngularJS, Python, Git, Octopus Deploy, Docker, SQL Server and Microsoft Azure. 
+
+
