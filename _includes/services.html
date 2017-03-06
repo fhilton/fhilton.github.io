@@ -1,0 +1,30 @@
+<div>
+    <h3>How can I help you?</h3>
+    <div class="section-block">
+        <h4>Octopus Deploy</h4>
+        {% capture my_include %}{% include octopusDeploy.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+         
+         <a class="contact-container"  href="/services/octopus.html">
+            <div class="learn-link" >Yes! Tell Me More!</div>
+        </a>
+        <!--<div class="btn">
+            <a class="page-link" href="/services/octopus.html">See how I can help you...</a>
+        </div>-->
+    </div>
+    
+    <div class="section-block">
+        <h4>Painful Releases?</h4>
+        {% capture my_include %}{% include releases.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+         
+         <a class="contact-container"  href="/services/releases.html">
+            <div class="learn-link" >Yes! Tell Me More!</div>
+        </a>
+        <!--<div class="btn">
+            <a class="page-link" href="/services/releases.html">See how I can help you...</a>
+        </div>-->
+    </div>
+
+     {% include contact.html %}
+</div>
