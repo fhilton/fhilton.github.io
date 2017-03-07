@@ -1,5 +1,16 @@
 <div>
     <h3>How can I help you?</h3>
+    
+     <div class="section-block">
+        <h4>SQL in Version Control</h4>
+        {% capture my_include %}{% include sqlInVersionControl.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+         
+         <a class="contact-container"  href="/services/sqlInVersionControl.html">
+            <div class="learn-link" >Yes! Tell Me More!</div>
+        </a>
+    </div>
+    
     <div class="section-block">
         <h4>Octopus Deploy</h4>
         {% capture my_include %}{% include octopusDeploy.md %}{% endcapture %}
@@ -20,15 +31,7 @@
         </a>
     </div>
 
-    <div class="section-block">
-        <h4>SQL in Version Control</h4>
-        {% capture my_include %}{% include sqlInVersionControl.md %}{% endcapture %}
-        {{ my_include | markdownify }}
-         
-         <a class="contact-container"  href="/services/sqlInVersionControl.html">
-            <div class="learn-link" >Yes! Tell Me More!</div>
-        </a>
-    </div>
+   
 
      {% include contact.html %}
 </div>
