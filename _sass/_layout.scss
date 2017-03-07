@@ -286,6 +286,9 @@
     top: 180px;
     right: 20px;
     text-decoration: none;
+    @include media-query($on-laptop) {
+         width: 300px;
+    }
 }
 
 .contact-link:hover {
