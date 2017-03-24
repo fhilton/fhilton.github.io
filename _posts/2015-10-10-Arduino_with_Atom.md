@@ -10,11 +10,12 @@ tags: [Software, Mastermind, Training]
 <br> <br>
 Working with Arduino's is a lot of fun. Getting started is super easy thanks to the provided IDE and lots of great example code:
 
+<!--more-->
+
 ![Arduino IDE with Examples](/images/2015/10/ArduinoExamples.png)
 
 <br><br>
 After getting past the "Hello World" phase I started to miss the editor experience that other editors give me, simple things like the ability to copy a line without highlighting or the way files are managed. <br><br>
-<!--more-->
 
 I found a [whole list](http://playground.arduino.cc/Main/DevelopmentTools) of development tools on the Arduino website.  Two that stood out to me are:
 
