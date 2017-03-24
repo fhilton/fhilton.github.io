@@ -7,7 +7,7 @@ categories: [Docker]
 tags: [Blog, Docker, Azure, Microsoft]
 ---
 
-I have been looking into the different ways of which to run Docker containers using Microsoft Azure. It took me a while to run down all of the options so I thought I would summarize them here in case it's useful to someone else.
+There are multiple options for running Docker containers in Microsoft Azure. Below the options are broken out by the need to run an app in a single container or an app composed of multiple containers.
 
 <!--more-->
 
@@ -17,15 +17,17 @@ Developing a monolithic application in a container gives the advantages of depen
 <br><br>
 Options for running single containers in Azure:
 
+* [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/web/)
+
+    <br>Azure App Service now supports running Docker containers using Linux.  You can configure containers to be run using the [Azure Portal](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-using-custom-docker-image) or [create a containerized application and deploy the container directly to App Service using Visual Studio](https://blogs.msdn.microsoft.com/webdev/2016/11/16/new-docker-tools-for-visual-studio/).
+    <br>
+    You can setup a continuous delivery pipeline for your App Service in Visual Studio Team Services using the [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
+
 * <strong>Azure VM - IAAS using ARM Templates</strong>
 
     <br>You can create your own VM using [Azure Resource Manager (ARM)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) Templates and install Docker.  From there you can use [Azure VM Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview) to scale your service as needed.
 
-* [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/web/)
 
-    <br>Azure App Service now supports running Docker containers using Linux.  You can configure containers to be run using the [Azure Portal](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-linux-using-custom-docker-image) or [create a containerized application and deploy the container directly to App Service using Visual Studio](https://blogs.msdn.microsoft.com/webdev/2016/11/16/new-docker-tools-for-visual-studio/).
-    <br><br>
-    You can setup a continuous delivery pipeline for your App Service in Visual Studio Team Services using the [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
 
 <br>
 Note that "Visual Studio Tools for Docker" is part of Visual Studio 2017 and available as an [extension](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview) for Visual Studio 2015.
@@ -35,10 +37,11 @@ Note that "Visual Studio Tools for Docker" is part of Visual Studio 2017 and ava
 ### Service-oriented (Multiple Container) Apps
 Containers really shine when it comes to building Service-oriented architectures.  Using services gives the ability to scale only the required parts of the application and allows developers to improve a single part of the system at a time.
 <br><br>
-While the above sounds great, that hard part is deploying and maintaining all of the containers that make up an application.
+While the above sounds great, the hard part is keeping track of all the containers.
 Tools that help manage the provisioning, scheduling and monitoring of containers are called <strong>orchestrators</strong>.
 <br><br>
-You can use just about any orchestrator with Azure because you can manually create VMs and install whatever you like on them.  Installing and configuring orchestrators is a complicated process.  Microsoft has gone to great lengths to make configuring Orchestrators easier with the Azure Container Service (ACS)
+You can use just about any orchestrator with Azure because you can manually create VMs and install whatever you like on them.  
+<br>Installing and configuring orchestrators is a complicated process.  Microsoft has gone to great lengths to make configuring Orchestrators easier with the  [Azure Container Service (ACS)](https://azure.microsoft.com/en-us/services/container-service/)
 <br>
 <br>
 Options for orchestrating containers in Azure:
@@ -47,14 +50,15 @@ Options for orchestrating containers in Azure:
 
     <br>Azure Container Service makes it easier to setup orchestration by pre-configuring the hosting environment and deploying the orchestrator for you.  Select the orchestrator, the size and number of VMs and ACS takes care of the rest.
 
-    ACS currently supports (as of March 2017):
+    <br>ACS currently supports (as of March 2017):
 
     - Docker Swarm (not to be confused with the new Docker Swarm Mode)
     - Kubernetes
     - DC/OS 
 
+    <br>
     There are some great tutorials in the [Technical Community Content](https://github.com/Microsoft/TechnicalCommunityContent/tree/master/Open%20Dev%20Framework/Docker) repository on GitHub if you want to try out ACS.
-    <br><br>
+    <br>
     You can setup a continuous delivery pipeline for your Azure Container Service in Visual Studio Team Services using the [Continuous Delivery Tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension.
 
 - [Azure Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)
