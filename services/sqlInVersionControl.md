@@ -11,6 +11,6 @@ permalink: /services/sqlInVersionControl.html
 - Setting up automated database deployments
 - Training in technologies such as Microsoft SQL Database Projects, DbUp, and  readyroll
 
-
+#### Want to know more?
 {% include contact.html %}
 

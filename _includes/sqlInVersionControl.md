@@ -1,3 +1,3 @@
-You would never consider writing software without having the code in source control, but somehow SQL is always left out of the discussion.  If you don't have a source of truth for your schema, functions and stored procedures, you are one accidental change away from real problems.  I've helped multiple teams get their SQL into source control and setup systems to deploy those changes along with their application. 
+You would never consider writing software without having the code in source control, but somehow SQL is always left out of the discussion.  If you don't have a source of truth for your schema, functions and stored procedures, you are one accidental change away from real problems.  I've helped multiple teams get their SQL into source control and setup systems to deploy those changes along with their application. [(Learn More...)](/services/sqlInVersionControl.html)
 
 Is it time to get your SQL under control?

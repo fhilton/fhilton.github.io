@@ -5,3 +5,5 @@ Are you afraid of what bugs will be created if you make changes?
 Do changes get lost and bugs magically reappear?
 
 Do code merges take forever?
+[(Learn More...)](/services/releases.html)
+
