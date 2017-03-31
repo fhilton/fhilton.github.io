@@ -78,3 +78,4 @@ A couple more good links:<br>
 - [Microsoft e-book on Docker Containers and Azure](https://blogs.msdn.microsoft.com/cesardelatorre/2016/11/16/free-ebook-on-containerized-docker-application-lifecycle-with-microsoft-tools-and-platform/)
 - [Discussion of Container Strategies with Michele Bustamante on .NET Rocks](https://www.dotnetrocks.com/?show=1419)
 - [Using Docker with App Service with Nick Walker on the MSDevShow](http://msdevshow.com/2017/03/web-apps-with-nick-walker/)
+- [Sample .NET Core reference application, powered by Microsoft, based on a simplified microservices architecture and Docker containers](https://github.com/dotnet/eshoponcontainers) - Thanks [Bill Pratt](https://twitter.com/mrbpman) for the link.
