@@ -9,6 +9,8 @@ tags: [Blog, Docker, Windows Container, Microsoft, Linux]
 
 Lets explore the relationship between the "Container Host" and the "Container OS" and how they differ between Linux and Windows containers.
 
+<!--more-->
+
 #### Some Definitions:
 
 - <strong>Container Host:</strong> Also called the <strong>Host OS</strong>. The Host OS is the operating system on which the Docker client and Docker daemon run.  In the case of Linux and non-Hyper-V containers, the Host OS shares its kernel with running Docker containers. For Hyper-V each container has its own Hyper-V kernel.
