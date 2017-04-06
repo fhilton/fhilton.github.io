@@ -74,6 +74,10 @@ strong{
 /**
  * Lists
  */
+ul {
+    margin-top: 0px;
+}
+
 ul, ol {
     margin-left: $spacing-unit;
 }
