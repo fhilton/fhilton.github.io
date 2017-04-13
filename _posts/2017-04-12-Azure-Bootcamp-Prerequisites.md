@@ -1,0 +1,62 @@
+---
+layout: post
+title: Azure Bootcamp Prerequisites - Docker on Azure
+date: "2017-04-12 18:01"
+published: true
+categories: [Docker]
+tags: [Blog, Docker, Azure, .NET]
+---
+
+Below are the prerequisites for the [Global Azure Bootcamp](https://www.meetup.com/CascoBayNUG/events/236227762/) hands on lab "Docker on Azure".
+
+- [PuTTY](#putty)
+- [Docker for Windows](#docker-for-windows)
+- [Visual Studio Tools for Docker](#visual-studio-tools-for-docker)
+- [Docker Hub Account](#docker-hub-account)
+
+#### PuTTY
+Install PuTTY from here:<br> [http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+#### Docker for Windows
+Install Docker for Windows from the Stable channel here: <br> [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/)
+<br>
+<br>
+
+Docker for Windows installs the Docker Client and Docker Daemon which allows you to run both Linux and Windows based containers.     
+
+#### Visual Studio Tools for Docker
+Docker support needs to be installed as an extension in VS 2015, and a workload in VS 2017, the examples for each are described below.
+<br>
+<br>
+
+- <strong>For Visual Studio 2015<strong>
+    - Install [.NET Core 1.0.1 VS 2015 Tooling Preview 2SDK](https://www.microsoft.com/net/core#windowscmd)
+        - You need this specific version or the extension will not install
+    - Tools for Docker Extension
+        -   In Visual Studio 2015, go to Tools->Extensions and Updates
+        -   Search for docker tools and click download
+![Install Extension](/images/2017/04/VS2015Ext.png)
+        - Open the downloaded file to install
+        - Create a new .NET Core application, right click on the project, select Add and verify that "Docker Support" is listed.
+![Docker Support](/images/2017/04/AddDockerSupport.png)
+
+<br>
+
+- <strong>For Visual Studio 2017<strong>
+    - Go to Start->Visual Studio Installer
+    - Click Modify
+    - Select the "Azure Development" Workload
+![Azure Workload](/images/2017/04/AzureWorkload.png)
+    - Select the ".NET Core cross-platform development" Workload
+![NET Cross Plat Workload](/images/2017/04/NetCoreCrossPlatWorkload.png)
+    - Click modify to install
+    - Create a new .NET Core application, right click on the project, select Add and verify that "Docker Support" is listed.
+![Docker Support](/images/2017/04/AddDockerSupport.png)
+
+
+#### Docker Hub Account
+[Sign up for a Docker Hub account](https://hub.docker.com/)
+
+Docker Hub is a repository for both Linux and Windows Docker images.
+We will use Docker Hub to host an image that will then be deployed to Azure.
+
