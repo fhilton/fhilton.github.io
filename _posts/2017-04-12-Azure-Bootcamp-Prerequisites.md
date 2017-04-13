@@ -8,7 +8,7 @@ tags: [Blog, Docker, Azure, .NET]
 ---
 
 Below are the prerequisites for the [Global Azure Bootcamp](https://www.meetup.com/CascoBayNUG/events/236227762/) hands on lab "Docker on Azure".
-
+<!--more-->
 - [PuTTY](#putty)
 - [Docker for Windows](#docker-for-windows)
 - [Visual Studio Tools for Docker](#visual-studio-tools-for-docker)
