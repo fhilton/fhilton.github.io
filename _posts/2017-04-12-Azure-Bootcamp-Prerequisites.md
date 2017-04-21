@@ -9,10 +9,19 @@ tags: [Blog, Docker, Azure, .NET]
 
 Below are the prerequisites for the [Global Azure Bootcamp](https://www.meetup.com/CascoBayNUG/events/236227762/) hands on lab "Docker on Azure".
 <!--more-->
+
+- [Exercise Files](#exercise-files)
 - [PuTTY](#putty)
 - [Docker for Windows](#docker-for-windows)
 - [Visual Studio Tools for Docker](#visual-studio-tools-for-docker)
 - [Docker Hub Account](#docker-hub-account)
+
+#### Exercise Files
+
+The exercise files are located in [this](https://github.com/Microsoft/TechnicalCommunityContent/tree/master/Open%20Dev%20Framework/Docker/Session%202%20-%20Hands%20On) GitHub repository. 
+<br>
+<br>
+<strong>Note:</strong> The GitHub repo is HUGE.  I create a smaller zip file of the Docker files for the lab [here](https://dl.dropboxusercontent.com/u/47903262/TechCommContent_Docker.zip) if you don't want to clone the whole repository.
 
 #### PuTTY
 Install PuTTY from here:<br> [http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
