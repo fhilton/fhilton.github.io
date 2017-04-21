@@ -18,7 +18,7 @@ Below are the prerequisites for the [Global Azure Bootcamp](https://www.meetup.c
 
 #### Exercise Files
 
-The exercise files are located in [this](https://github.com/Microsoft/TechnicalCommunityContent/tree/master/Open%20Dev%20Framework/Docker/Session%202%20-%20Hands%20On) GitHub repository. 
+The exercise files are located in [this](https://github.com/Microsoft/TechnicalCommunityContent/tree/master/Open%20Dev%20Framework/Docker/Session%203%20-%20Hands%20On) GitHub repository. 
 <br>
 <br>
 <strong>Note:</strong> The GitHub repo is HUGE.  I create a smaller zip file of the Docker files for the lab [here](https://dl.dropboxusercontent.com/u/47903262/TechCommContent_Docker.zip) if you don't want to clone the whole repository.
