@@ -1,7 +1,17 @@
 <div>
     <h3>How can I help you?</h3>
     
+    <ul>
+        <li><a href="#Cloud">Microsoft Azure and the Cloud</a></li>
+        <li><a href="#Custom">Documentation and Development for Existing Systems</a></li>
+        <li><a href="#VersionControl">SQL in Version Control</a></li>
+        <li><a href="#Octopus">Octopus Deploy</a></li>
+        <li><a href="#Releases">Painful Releases</a></li>
+    </ul>
+<br>
+
       <div class="section-block">
+        <a name="Cloud"></a>
         <h4>Microsoft Azure and the Cloud</h4>
         {% capture my_include %}{% include azure.md %}{% endcapture %}
         {{ my_include | markdownify }}
@@ -10,7 +20,18 @@
         {% include contact.html %}
     </div>
 
+    <div class="section-block">
+        <a name="Custom"></a>
+        <h4>Documentation and Development for Existing Systems</h4>
+        {% capture my_include %}{% include existingSystems.md %}{% endcapture %}
+        {{ my_include | markdownify }}
+         
+         
+        {% include contact.html %}
+    </div>
+
      <div class="section-block">
+        <a name="VersionControl"></a>         
         <h4>SQL in Version Control</h4>
         {% capture my_include %}{% include sqlInVersionControl.md %}{% endcapture %}
         {{ my_include | markdownify }}
@@ -19,6 +40,7 @@
     </div>
     
     <div class="section-block">
+        <a name="Octopus"></a>                 
         <h4>Octopus Deploy</h4>
         {% capture my_include %}{% include octopusDeploy.md %}{% endcapture %}
         {{ my_include | markdownify }}
@@ -27,6 +49,7 @@
     </div>
     
     <div class="section-block">
+        <a name="Releases"></a>                         
         <h4>Painful Releases?</h4>
         {% capture my_include %}{% include releases.md %}{% endcapture %}
         {{ my_include | markdownify }}
