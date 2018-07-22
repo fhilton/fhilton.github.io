@@ -18,11 +18,11 @@ Lets explore the relationship between the "Container Host" and the "Container OS
 - <strong>Operating System Kernel:</strong> The Kernel manages lower level functions such as memory management, file system, network and process scheduling.
 
 #### Now for some pictures:
-<br>
+
 ![Linux Containers](/images/2017/03/2017-03-31_14_50_13-Radom Learnings, Online Whiteboard for Visual Collaboration.png)
 
-<br>
-<br>
+
+
 In the above example
 
 - The Host OS is Ubuntu. 
@@ -32,21 +32,21 @@ In the above example
 - The "No OS" container demonstrates that you do not NEED a base OS to run a container in Linux.  You can create a Docker file that has a base image of [scratch](https://hub.docker.com/_/scratch/) and then runs a binary that uses the kernel directly.
 - Check out [this](https://www.brianchristner.io/docker-image-base-os-size-comparison/) article for a comparison of Base OS sizes.
 
-<br>
+
 ![Windows Containers - Non Hyper-V](/images/2017/03/2017-03-31_15_04_03-Radom Learnings, Online Whiteboard for Visual Collaboration.png)
-<br>
-<br>
+
+
 In the above example
 
 - The Host OS is Windows 10 or Windows Server.  
 - Each container shares the Host OS kernel.  
 - All windows containers require a Base OS of either [nanoserver](https://hub.docker.com/r/microsoft/nanoserver/) or [windowsservercore](https://hub.docker.com/r/microsoft/windowsservercore/). 
 
-<br>
+
 
 ![Windows Containers - Hyper-V](/images/2017/03/2017-03-31_15_41_31-Radom Learnings, Online Whiteboard for Visual Collaboration.png)
-<br>
-<br>
+
+
 In the above example
 
 - The Host OS is Windows 10 or Windows Server.  
@@ -55,8 +55,8 @@ In the above example
 - All windows containers require a Base OS of either [nanoserver](https://hub.docker.com/r/microsoft/nanoserver/) or [windowsservercore](https://hub.docker.com/r/microsoft/windowsservercore/). 
 
 
-<br><br>
-A couple of good links:<br>
+
+A couple of good links:
 
 - [About windows containers](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/)
 - [Deep dive into the implementation Windows Containers including multiple User Modes and "copy-on-write" to save resources](http://blog.xebia.com/deep-dive-into-windows-server-containers-and-docker-part-2-underlying-implementation-of-windows-server-containers/)

@@ -9,15 +9,15 @@ tags: [Blog, ALM, Open Source, .NET]
 
 Ever want (or need) to know how the .NET Framework is working under the covers?
 
-Thanks to the new "Open Source" Microsoft, viewing the framework code is easier than ever.<br>
-<br>
+Thanks to the new "Open Source" Microsoft, viewing the framework code is easier than ever.
+
 But what if you are not using an open source version of .NET? Use a decompiler such as [ILSpy](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.ILSpy) or [dotPeek](https://www.jetbrains.com/decompiler/).
 
 <!--more-->
 
 <!--#### TL;DR - To the point-->
-<br>
-<br>
+
+
 <strong>Some useful Links</strong>
 
 - [Landing point for .NET code on GitHub](https://github.com/Microsoft/dotnet)
@@ -32,9 +32,9 @@ But what if you are not using an open source version of .NET? Use a decompiler s
     - [Browse and search the .NET Framework (non-core) reference](https://referencesource.microsoft.com/)
     - [Identity 2.0 (Until CodePlex shuts down)](https://aspnetidentity.codeplex.com/)
 
-<br>
+
 <strong>Decompile using ILSpy</strong>
-<br>
+
 If you can't find the source code above, or just want to quickly look at the version you are using:
 
 - Install the [ILSpy extension for Visual Studio (2012-2017)](https://marketplace.visualstudio.com/items?itemName=SharpDevelopTeam.ILSpy)

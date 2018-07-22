@@ -8,17 +8,17 @@ tags: [Blog, Docker, Windows]
 ---
 
 When I first started this blog, I went through the process of setting up  [Jekyll](https://jekyllrb.com/) locally on my Mac so that I could preview posts.
-<br>
-<br>
+
+
 Recently I've been doing more work in Windows and wanted to be able to work on my blog without booting up my Mac.
-<br>
-<br>
+
+
 My friend James pointed out on his blog [jamessturtevant.com](http://www.jamessturtevant.com/posts/Running-Jekyll-in-Windows-using-Docker/) that it's really easy to get Jekyll running on Windows using Docker so I thought I'd give it a try.
-<br>
+
 <!--more-->
-<br>
+
 Here are the steps I took based on James advice:
-<br>
+
 
 # Install Docker for Windows
 See instructions here:
@@ -34,20 +34,20 @@ Run the following command
 
 > PS C:\\> docker run -it -p 4000:4000 -v C:/Code/fhilton.github.io:/site itzg/jekyll-github-pages
 
-<br>Which produces the following output
+Which produces the following output
 
->Configuration file: /site/_config.yml<br>
-&nbsp;            Source: /site<br>
-&nbsp;        Destination: /site/_site<br>
- &nbsp;      Generating...<br>
-  &nbsp;                    done.<br>
- Auto-regeneration: disabled. Use --watch<br>
-Configuration file: /site/_config.yml<br>
-   &nbsp;  Server address: http://0.0.0.0:4000/<br>
-  &nbsp; Server running... press ctrl-c to stop.<br>
+>Configuration file: /site/_config.yml
+&nbsp;            Source: /site
+&nbsp;        Destination: /site/_site
+ &nbsp;      Generating...
+  &nbsp;                    done.
+ Auto-regeneration: disabled. Use --watch
+Configuration file: /site/_config.yml
+   &nbsp;  Server address: http://0.0.0.0:4000/
+  &nbsp; Server running... press ctrl-c to stop.
 
 
-<br>The above command tells docker to
+The above command tells docker to
 
 *  run the [itzg/jekyll-github-pages](https://hub.docker.com/r/itzg/jekyll-github-pages/) image
 * bind /site in the image to C:\\Code\\fhilton.github.io 

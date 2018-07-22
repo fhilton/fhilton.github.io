@@ -19,24 +19,24 @@ Below are the prerequisites for the [Global Azure Bootcamp](https://www.meetup.c
 #### Exercise Files
 
 The exercise files are located in [this](https://github.com/Microsoft/TechnicalCommunityContent/tree/master/Open%20Dev%20Framework/Docker/Session%203%20-%20Hands%20On) GitHub repository. 
-<br>
-<br>
+
+
 <strong>Note:</strong> The GitHub repo is HUGE.  I create a smaller zip file of the Docker files for the lab [here](https://dl.dropboxusercontent.com/u/47903262/TechCommContent_Docker.zip) if you don't want to clone the whole repository.
 
 #### PuTTY
-Install PuTTY from here:<br> [http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+Install PuTTY from here: [http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 #### Docker for Windows
-Install Docker for Windows from the Stable channel here: <br> [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/)
-<br>
-<br>
+Install Docker for Windows from the Stable channel here:  [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/)
+
+
 
 Docker for Windows installs the Docker Client and Docker Daemon which allows you to run both Linux and Windows based containers.     
 
 #### Visual Studio Tools for Docker
 Docker support needs to be installed as an extension in VS 2015, and a workload in VS 2017, the examples for each are described below.
-<br>
-<br>
+
+
 
 - <strong>For Visual Studio 2015<strong>
     - Install [.NET Core 1.0.1 VS 2015 Tooling Preview 2SDK](https://www.microsoft.com/net/core#windowscmd)
@@ -49,7 +49,7 @@ Docker support needs to be installed as an extension in VS 2015, and a workload 
         - Create a new .NET Core application, right click on the project, select Add and verify that "Docker Support" is listed.
 ![Docker Support](/images/2017/04/AddDockerSupport.png)
 
-<br>
+
 
 - <strong>For Visual Studio 2017<strong>
     - Go to Start->Visual Studio Installer

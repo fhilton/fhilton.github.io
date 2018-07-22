@@ -8,8 +8,8 @@ tags: [Software, Tools, VisualStudio, Mac]
 ---
 ### Overview
 
-Using Visual Studio (in Parallels) on my Mac works pretty well, except when I try to use **Command+Arrow** to move to the beginning or end of a line. When you press **Command+Arrow** in Visual Studio on a Mac, the window moves around the screen, which is quite surprising and not at all helpful. <br>
-<br>
+Using Visual Studio (in Parallels) on my Mac works pretty well, except when I try to use **Command+Arrow** to move to the beginning or end of a line. When you press **Command+Arrow** in Visual Studio on a Mac, the window moves around the screen, which is quite surprising and not at all helpful. 
+
 <!--more-->
 I did some research and found some useful information about mapping Mac Keyboard Shortcuts to Visual Studio (and Windows) in the following areas:
 
@@ -18,10 +18,10 @@ I did some research and found some useful information about mapping Mac Keyboard
 3. [https://autohotkey.com/board/topic/60675-osx-style-command-keys-in-windows/](https://autohotkey.com/board/topic/60675-osx-style-command-keys-in-windows/)
 
 
-The information above basically involves using [AutoHotKey](https://www.autohotkey.com/) to remap the keys and then modifying the keyboard shortcuts in Visual Studio to get the desired result.<br><br>
-Below is a summary of the steps required to use Mac keyboard shortcuts such as **Command+Left Arrow** from within a Parallels or similar Windows VM and Visual Studio.<br>
-<br>
-**Note** this tutorial is for Windows 10 and Visual Studio 2015.<br>
+The information above basically involves using [AutoHotKey](https://www.autohotkey.com/) to remap the keys and then modifying the keyboard shortcuts in Visual Studio to get the desired result.
+Below is a summary of the steps required to use Mac keyboard shortcuts such as **Command+Left Arrow** from within a Parallels or similar Windows VM and Visual Studio.
+
+**Note** this tutorial is for Windows 10 and Visual Studio 2015.
 
 # Steps
 
