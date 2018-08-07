@@ -7,20 +7,23 @@ categories: [DevOps]
 tags: [Monitoring, Stackify, Azure, .NET, Web]
 ---
 
-Which of these stories do you identify with more?
+Which of these anecdotes do you identify with more?
 
 - A customer reports an issue and your team starts trying to reproduce the issue or digging through logs to figure out whats wrong.  Eventually it's found that an error has been happening for a while, causing bad data, and its going to take a lot to clean up. The customer is frustrated and other customers need to be notified, if you'd only known sooner.
-- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on a new feature an hour ago, that must be the problem. Custom metrics show that only the test user has used the new feature, crises averted.
+- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on an hour ago, that must be the problem. Custom metrics show that only the test user has used the new feature. You turn off the feature and clean the test data, crises averted.
 
-Chances are you live somewhere in between the two extremes listed above, if so read on, perhaps some of the following will be useful.
+Chances are you live somewhere in between the two extremes above, if so read on, perhaps some of the following will be useful.
 
 <!--more-->
 
 # Overview
 
-While I was working for Mingle Analytics I helped put together a fairly comprehensive application monitoring system which helped us move from reactive to proactive monitoring.
+While at Mingle Analytics I helped put together an application monitoring system which helped us improve system performance, find unreported issues, and greatly speed up troubleshooting. The system also proactively tested the production system to help us quickly find issues before users encountered them.
 
-In this post I'll go over the different parts of the system and give some details about each part.
+
+<!-- APM (combined with [RUM](#real-user-monitoring-rum) below) helped us find the source of some tricky issues.  One issue was a memory leak caused by a 3rd party component. Another issue was a front end bug that was intermittently sending thousands of requests, which in turn caused slow performance for all users.  The holistic view of server monitoring, stack traces, web requests and user info allowed us to quickly diagnose and fix the above issues. -->
+
+<!-- In this post I'll go over the different parts of the system and give some details about each. -->
 
 ![Application Monitoring Layers](/images/2018/07/MonitorLayers.png)
 
@@ -41,6 +44,7 @@ Here are some quick links if you want to skip to a section:
 - [Custom Metrics](#custom-metrics)
 - [Synthetic (Live) Testing](#synthetic-live-testing)
 - [Alerting](#alerting)
+- [Want to learn more?](#want-to-learn-more)
 
 # Server Monitoring - CPU, Memory, Disk
 
@@ -74,7 +78,7 @@ Logging can be as simple as writing the info text to a file, however using a log
 
 At Mingle we used log4net for application logging.  We used the rolling file appender and kept a log file for each day of the month.
 
-**When logging an application:**
+**When Logging an Application:**
 
 - Use log levels to control the amount of logging.
 - If running the app on multiple servers, include the server name in the log file to prevent file locking issues.
@@ -109,13 +113,23 @@ At Mingle we used [Stackify Retrace](https://stackify.com/retrace/) for log aggr
 - Receive alerts of errors and their frequency.
 - Receive alerts when a search term is found in the log file.
 
+**Some Log Aggregation Tools**
+
+- [Stackify Retrace](https://stackify.com/retrace/)
+- [Datadog](https://www.datadoghq.com)
+- [Logstash](https://www.elastic.co/products/logstash)
+- [Azure Monitoring](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview)
+- [Splunk](https://www.splunk.com/)
+
+**Resources**
+
+- [Log Aggregation 101](https://stackify.com/log-aggregation-101/)
+
 # Application Performance Monitoring (APM)
 
 APM tools typically help you see a breakdown of how each part of your application is performing.
 
 At Mingle we used [Stackify Retrace](https://stackify.com/retrace/) for APM.
-
-APM (combined with [RUM](#real-user-monitoring-rum) below) helped us find the source of some tricky issues.  One issue was a memory leak caused by a 3rd party component. Another issue was a front end bug that was intermittently sending thousands of requests, which in turn caused slow performance for all users.  The holistic view of server monitoring, stack traces, web requests and user info allowed us to quickly diagnose and fix the above issues.
 
 ![Application Monitoring Layers](/images/2018/07/RetraceAPM.png)
 
@@ -130,12 +144,12 @@ We were really impressed by the amount of information we received after installi
 
 Each of the above areas can be monitored and alerts can be sent when a threshold is breached.
 
-**Some APM tools**
+**Some APM Tools**
 
 - [Stackify Retrace](https://stackify.com/retrace/)
 - [Datadog](https://www.datadoghq.com)
 - [Raygun APM](https://raygun.com/platform/apm)
-- [Azure Monitoring](- [Azure monitoring](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview))
+- [Azure Monitoring](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview)
 
 # Real User Monitoring (RUM)
 
@@ -166,9 +180,13 @@ We created a custom plugin for Raygun that would push errors and performance inf
 Note that Raygun continues to evolve and now has many [plugins](https://raygun.com/docs/plugins/) to allow the export of alerts and data.  
 Raygun is also starting to work in the [APM space](https://raygun.com/platform/apm).
 
-**Some RUM tools**
+**Some RUM Tools**
 - [Raygun](https://raygun.com)
 - [TraceView](https://traceview.solarwinds.com/)
+
+**Resources**
+
+- [What is real user monitoring?](https://stackify.com/what-is-real-user-monitoring/)
 
 # Custom Metrics
 
@@ -232,6 +250,10 @@ All other alerting was handled by [Stackify Retrace](https://stackify.com/retrac
 In Slack we had a dedicated "Production Issues" channel that was highly guarded and setup to always alert subscribers.
 
 **Alterting tip**: Make sure alerts are real and infrequent. Too many alerts quickly turn into noise that is ignored.
+
+# Want to learn more?
+
+Please reach out to me on [Twitter](https://twitter.com/fhilton), [LinkedIn](https://www.linkedin.com/in/floydhilton/) or contact me at [TacomaSoftware](http://www.tacomasoftware.com#contact) if you want more details about application monitoring.
 
 
 <!-- | Tool             | Server | Log   | Log Agg | APM   | RPM   | Metrics |
