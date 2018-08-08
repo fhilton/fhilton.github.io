@@ -7,12 +7,12 @@ categories: [DevOps]
 tags: [Monitoring, Stackify, Azure, .NET, Web]
 ---
 
-Which of these anecdotes do you identify with more?
+Which of these situations do you identify with more?
 
-- A customer reports an issue and your team starts trying to reproduce the issue or digging through logs to figure out whats wrong.  Eventually it's found that an error has been happening for a while, causing bad data, and its going to take a lot to clean up. The customer is frustrated and other customers need to be notified, if you'd only known sooner.
-- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on an hour ago, that must be the problem. Custom metrics show that only the test user has used the new feature. You turn off the feature and clean the test data, crises averted.
+- A customer reports an issue and your team starts trying to reproduce the issue or digging through logs to figure out what's wrong.  Eventually it's found that an error has been happening for a while, causing bad data, and it's going to take a great deal to clean up. The customer is frustrated and other customers need to be notified, if you had only known sooner.
+- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on an hour ago.  The data logging suggests that the error stems from this new feature.  Custom metrics show that only the test user has used the new feature. You turn off the feature and clean the test data, crises averted.
 
-Chances are you live somewhere in between the two extremes above, if so read on, perhaps some of the following will be useful.
+Chances are you live somewhere in between the two extremes above.  If so read on, perhaps some of the following will be useful.
 
 <!--more-->
 
@@ -48,16 +48,15 @@ Here are some quick links if you want to skip to a section:
 
 # Server Monitoring - CPU, Memory, Disk
 
-Server monitoring is just what it sounds like, keeping an eye on your servers to make sure they are healthy. Is the CPU spiking, do we have a memory leak, a bad disk?  These are the types of questions you answer with server monitoring.  
+Server monitoring is just what it sounds like: keeping an eye on your servers to make sure they are healthy. Is the CPU spiking?  Do we have a memory leak, a bad disk?  These are the types of questions you answer with server monitoring.  
 
-Server monitoring is typically run by the IT/Operations side, however thanks to the DevOps movement developers are becoming more aware this type of monitoring.
+Server monitoring is typically run by the IT/Operations side.  However, thanks to the DevOps movement, developers are becoming more aware of this type of monitoring. 
 
-At Mingle the IT group put [LogicMonitor](https://www.logicmonitor.com) in place to do the server level monitoring. 
-
-[Stackify Retrace](https://stackify.com/retrace/) also does Server Monitoring, however since LogicMonitor was in place before Retrace, Mingle continued to use LogicMonitor for this level of monitoring.
+At Mingle the IT group put [LogicMonitor](https://www.logicmonitor.com) in place to do the server level monitoring.
 
 **Some Server Monitoring Tools**
 
+- [LogicMonitor](https://www.logicmonitor.com)
 - [Stackify Retrace](https://stackify.com/retrace/)
 - [Datadog](https://www.datadoghq.com)
 - [Nagios](https://www.nagios.org/)
@@ -74,7 +73,7 @@ Application level logging is the first step to seeing what's happening inside yo
 
 Logging is accomplished by adding code to your application that will tell you what parts of the application are being used and if there are any errors.
 
-Logging can be as simple as writing the info text to a file, however using a logging framework such as [log4net](https://logging.apache.org/log4net/) or [NLog](http://nlog-project.org/) provide a lot of functionality out of the box.
+Logging can be as simple as writing the info text to a file, though using a logging framework such as [log4net](https://logging.apache.org/log4net/) or [NLog](http://nlog-project.org/) provides additional functionality out of the box.
 
 At Mingle we used log4net for application logging.  We used the rolling file appender and kept a log file for each day of the month.
 
@@ -103,7 +102,7 @@ At Mingle we used log4net for application logging.  We used the rolling file app
 
 Log aggregation pulls together all of your log files into a central location. Many tools allow the searching and filtering of log data to help zero in on the info needed.
 
-At Mingle we used [Stackify Retrace](https://stackify.com/retrace/) for log aggregation.  We found int very easy to setup and immediately began to see some errors that we had missed in the log files.
+At Mingle we used [Stackify Retrace](https://stackify.com/retrace/) for log aggregation.  We found it very easy to setup and immediately began to see some errors that we had missed in the log files.
 
 ![Application Monitoring Layers](/images/2018/07/RetraceLog.png)
 
@@ -133,9 +132,12 @@ At Mingle we used [Stackify Retrace](https://stackify.com/retrace/) for APM.
 
 ![Application Monitoring Layers](/images/2018/07/RetraceAPM.png)
 
-We were really impressed by the amount of information we received after installing Retrace:
+We were really impressed with the amount of information we received after installing Retrace:
 
-- Graphs showing  the number of requests, average timing of web reqeusts and a breakdown of where that time is spent (App code, database, Redis, etc).
+- Graphs showing
+    - Number of requests
+    - Average timing of web requests
+    - A breakdown of where web requested time is spent (App code, database, Redis, etc)
 - Performance by
     - Request
     - SQL query
@@ -162,7 +164,7 @@ RUM shows how a web application is performing from a users point of view:
 - Errors and crashes
 - Feature usage
 
-While APM above is focused from the webserver down, RUM is focused on the web browser.
+While APM is focused from the webserver down, RUM is focused on the web browser.
 RUM is particularly important for applications that use the Single Page Application (SPA) model. In SPA applications most of the code runs in the web browser.  It's quite possible for the SPA to be completely down and have the back APM reporting nothing but a lack of traffic.
 
 One of our main apps at Mingle was a SPA written in AngularJs. We decided to use [Raygun](https://raygun.com) to monitor our SPA application.
@@ -173,12 +175,12 @@ Raygun proved useful for:
 - Seeing performance issues from the user point of view
 - Knowing the number of active users
 - Identifying specific users that were having performance issues
-- Catching front end errors - User info such as browser type and location 
+- Catching front end errors
+- Tracking user info such as browser type and location
 
-We created a custom plugin for Raygun that would push errors and performance information to [Stackify Retrace](https://stackify.com/retrace/) via a backend API.  This allowed us to have all of our error logging and alerting in one place.
+We created a custom plugin for Raygun that would push errors and performance information to [Stackify Retrace](https://stackify.com/retrace/) via a back-end API.  This allowed us to have all of our error logging and alerting in one place.
 
-Note that Raygun continues to evolve and now has many [plugins](https://raygun.com/docs/plugins/) to allow the export of alerts and data.  
-Raygun is also starting to work in the [APM space](https://raygun.com/platform/apm).
+Note that Raygun continues to evolve and now has many [plugins](https://raygun.com/docs/plugins/) to allow the export of alerts and data. Raygun is also starting to work in the [APM space](https://raygun.com/platform/apm).
 
 **Some RUM Tools**
 - [Raygun](https://raygun.com)
@@ -190,7 +192,7 @@ Raygun is also starting to work in the [APM space](https://raygun.com/platform/a
 
 # Custom Metrics
 
-While APM tools can give you a lot of metric information out of the box, its often necessary to complete the pictures using your own custom metrics.
+While APM tools can give you quite a bit of metric information out of the box, it's often necessary to complete the pictures using your own custom metrics.
 
 Custom metrics are used for insight into both the technical and business sides of the application.
 
@@ -211,14 +213,14 @@ Typical metrics might be:
     - Volumes of data transferred
     - Requests and responses
 
-We used [Retraces custom metrics](https://docs.stackify.com/docs/custom-metrics-overview) to log page load times from Raygun as well as number of logins and performance of different parts of the system.
+We used [Retraces custom metrics](https://docs.stackify.com/docs/custom-metrics-overview) to log page load times from Raygun as well as the number of logins and the performance of different parts of the system.
 
 Custom metrics in Retrace are good for basic items but we ran up against the following limitations:
 
 - All metrics are by the minute, no custom time frame.
 - No support for using percentiles instead of average.
 - Limited access to the metric data to perform our own analysis.
-    - There is a basic API for metric data but it allows you to access the same info as the dashboard, averages by the minute.
+    - There is a basic API for metric data but it allows you to access the same info as the dashboard, averaged by the minute.
 
 **Some tools with custom metrics support**
 
@@ -247,7 +249,7 @@ Server level alerting was handled by [LogicMonitor](https://www.logicmonitor.com
 
 All other alerting was handled by [Stackify Retrace](https://stackify.com/retrace/) and routed to [Slack](https://slack.com/).
 
-In Slack we had a dedicated "Production Issues" channel that was highly guarded and setup to always alert subscribers.
+In Slack we had a dedicated "Production Issues" channel that was highly guarded and set up to always alert subscribers.
 
 **Alterting tip**: Make sure alerts are real and infrequent. Too many alerts quickly turn into noise that is ignored.
 
