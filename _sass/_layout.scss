@@ -409,3 +409,23 @@ select{
 .form-style-1 .required{
     color:red;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: $orange-color;;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:lightsalmon;}
