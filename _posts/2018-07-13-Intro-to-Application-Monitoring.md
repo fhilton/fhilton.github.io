@@ -9,8 +9,8 @@ tags: [Monitoring, Stackify, Azure, .NET, Web]
 
 Which of these situations do you identify with more?
 
-- A customer reports an issue and your team starts trying to reproduce the issue or digging through logs to figure out what's wrong.  Eventually it's found that an error has been happening for a while, causing bad data, and it's going to take a great deal to clean up. The customer is frustrated and other customers need to be notified, if you had only known sooner.
-- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on an hour ago.  The data logging suggests that the error stems from this new feature.  Custom metrics show that only the test user has used the new feature. You turn off the feature and clean the test data, crises averted.
+- A customer reports an issue and your team starts trying to reproduce it.  Eventually it's found that an error has been happening for a while, causing bad data, and it's going to take a great deal to clean up. The customer is frustrated and other customers need to be notified, if you had only known sooner.
+- You receive an alert from your synthetic (live) testing that a new error is happening.  A new feature was turned on recently and logging suggests that the error stems from this new feature.  Custom metrics show that only the test user has used the new feature. You turn off the feature and clean the test data, crises averted.
 
 Chances are you live somewhere in between the two extremes above.  If so read on, perhaps some of the following will be useful.
 
@@ -27,8 +27,7 @@ While at Mingle Analytics I helped put together an application monitoring system
 
 ![Application Monitoring Layers](/images/2018/07/MonitorLayers.png)
 
-The image above shows the different types of monitoring and the tools that were used.  
-Also shown is [Stackify Retrace](https://stackify.com/retrace/) being used to trigger alerts and send them to [Slack](https://slack.com/).
+The image above shows the different types of monitoring and the tools that were used.
 
 Lets take a look at each of the layers above and why you would use them.  
 I'll be starting at bottom with the most common type and work my way to the top.  
