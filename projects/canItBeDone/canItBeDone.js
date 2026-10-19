@@ -26,14 +26,18 @@ function Schedule(startDate, hours, numResources, hrsPerRes)
 }
 
 
-function calcEndDate() {
-    var startDate = $('#StartDate').val();
-    var hoursProject = $('#HoursProject').val();
-    var numResources = $('#NumResources').val();
-    var hrsPerResource = $('#HrsPerResource').val();
+function isNumeric(value) {
+    return value.trim() !== '' && isFinite(value);
+}
 
-    if($.isNumeric(hoursProject) && $.isNumeric(numResources) && $.isNumeric(hrsPerResource) && startDate != ''){
-        $('#CompleteDate').val(Schedule(startDate, hoursProject,numResources , hrsPerResource));
+function calcEndDate() {
+    var startDate = document.getElementById('StartDate').value;
+    var hoursProject = document.getElementById('HoursProject').value;
+    var numResources = document.getElementById('NumResources').value;
+    var hrsPerResource = document.getElementById('HrsPerResource').value;
+
+    if(isNumeric(hoursProject) && isNumeric(numResources) && isNumeric(hrsPerResource) && startDate != ''){
+        document.getElementById('CompleteDate').value = Schedule(startDate, hoursProject, numResources, hrsPerResource);
     }
 
 }
