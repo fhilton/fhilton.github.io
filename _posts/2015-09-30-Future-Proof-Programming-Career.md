@@ -13,7 +13,7 @@ The good news is that by just doing one or two of the items below, you can move 
 
 <h4>Listen to Podcasts</h4>
  <strong>Learn from the best minds in the industry while you do the dishes</strong>
- I'm surprised to hear how many people don't listen to Podcasts.  The most common reason I hear is that time is not available, to which I respond, "Do you do the dishes?". Many of life's repetitive tasks can be made more enjoyable by turning on your iPod or your smart phone and having a listen to the latest [dotNetRocks](https://www.dotnetrocks.com/), [Hello World](http://wildermuth.com/hwpod), or [MS Dev Show](http://msdevshow.com/).  See my [podcasts list](http://floydhilton.com/resources/podcasts.html) for some ideas of where to start.  Don't knock it till you try it.
+ I'm surprised to hear how many people don't listen to Podcasts.  The most common reason I hear is that time is not available, to which I respond, "Do you do the dishes?". Many of life's repetitive tasks can be made more enjoyable by turning on your iPod or your smart phone and having a listen to the latest [dotNetRocks](https://www.dotnetrocks.com/), [Hello World](http://wildermuth.com/hwpod), or [MS Dev Show](http://msdevshow.com/).  See my [podcasts list]({{site.baseurl}}/resources/podcasts.html) for some ideas of where to start.  Don't knock it till you try it.
 
 <h4>Attend a User Group</h4>
 <strong>It's not what you learn, but who you teach</strong>

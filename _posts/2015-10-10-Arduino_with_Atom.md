@@ -25,10 +25,10 @@ I found a [whole list](http://playground.arduino.cc/Main/DevelopmentTools) of de
 
 
 
-Since for now I want to stick with C++ and the kids I'm teaching use [Linux laptops](http://floydhilton.com/software/linux/chromebook/2015/08/31/Kids-Code-Chromebook-Linux.html), both of the above tools I found were not going to work.
+Since for now I want to stick with C++ and the kids I'm teaching use [Linux laptops]({{site.baseurl}}/software/linux/chromebook/2015/08/31/Kids-Code-Chromebook-Linux.html), both of the above tools I found were not going to work.
  
 We were already successfully programming Python and Javascript with Atom on the Linux laptops, so I decided to look for a way to program the Arduino with Atom.
-The most promising extension I came across for Atom is [platformio](https://atom.io/packages/platomformio). [Here](https://viget.com/extend/arduino-development-in-atom-editor) is a blog post from the creator that explains what platformio is. See [here](http://floydhilton.com/resources/atom-extensions.html) for a list of the other Atom Extensions I use. 
+The most promising extension I came across for Atom is [platformio](https://atom.io/packages/platomformio). [Here](https://viget.com/extend/arduino-development-in-atom-editor) is a blog post from the creator that explains what platformio is. See [here]({{site.baseurl}}/resources/atom-extensions.html) for a list of the other Atom Extensions I use. 
 Platformio has a nice some pretty easy setup instructions:
 
 ![platformio setup instructions](/images/2015/10/SetupInstructions.png)
